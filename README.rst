@@ -43,7 +43,7 @@ General Workflow
     firefox ./index.html &
 
 #. Inspect the generated HTML in your web browser to check if it meets expectations
-#. When appropriate, submit a pull request to the ``gh-pages```branch of the ``video-sdk`` repository
+#. When appropriate, submit a pull request to the ``gh-pages`` branch of the ``video-sdk`` repository
 
 
 ****************************************
