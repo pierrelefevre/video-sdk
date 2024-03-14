@@ -229,7 +229,7 @@ Abrupt termination of FFmpeg processes may cause video resources to not be relea
 
 - Description: Rerunning FFmpeg after abrutly terminating previous runs gives an "xrm_allocation: resource allocation failed" error message indicating that there are not enough video resources available to run this job on the Xilinx device.
 
-- Solution: Users should terminate all running FFmepg processes before exiting their shell. Otherwise, a SIGHUP will be sent to the running FFmpeg processes and this may result in an unhandled signal leading to non-graceful termination and video resources will not be released correctly.
+- Solution: Users should terminate all running FFmpeg processes before exiting their shell. Otherwise, a SIGHUP will be sent to the running FFmpeg processes and this may result in an unhandled signal leading to non-graceful termination and video resources will not be released correctly.
 
 
 .. _rhel-subscription:
